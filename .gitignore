@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-electron
+dist-app
+build
+coverage
+*.log
+*.zip
+.DS_Store
+.env
+exports

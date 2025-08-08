@@ -1,0 +1,8 @@
+{
+  "name": "BF6 Companion",
+  "colors": { "primary": "#1e3a8a" },
+  "logos": {
+    "icon": "icon.png",
+    "splash": "splash.png"
+  }
+}

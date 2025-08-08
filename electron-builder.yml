@@ -1,0 +1,20 @@
+appId: com.example.bf6companion
+productName: BF6 Companion
+directories:
+  output: build
+files:
+  - "dist/backend/**/*"
+  - "dist/frontend/**/*"
+win:
+  target: nsis
+  icon: build/icon.ico
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+publish:
+  provider: generic
+  url: https://updates.example.com/bf6-companion
+mac:
+  target: dmg
+  icon: build/icon.icns
